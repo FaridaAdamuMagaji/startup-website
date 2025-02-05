@@ -5,6 +5,7 @@ import Navbar from './nav';
 import Header from './Header';
 import Partners from './partners';
 import Network from './Network';
+import Features from './Features';
 
 
 function Welcome() {
@@ -14,6 +15,8 @@ function Welcome() {
       <Header />
       <Partners />
       <Network />
+      <Features />
+      
       
       
     </div>
