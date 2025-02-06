@@ -3,9 +3,9 @@ import featureImage from '../src/images/images/ceo.png';
 
 const Features = () => {
     const featureList = [
-        { imageUrl: '/images/ceo.png', title: 'Feature One', description: 'Description of feature one.' },
+        { imageUrl: '/images/ceo.png', title: 'Peg Legge', description: 'Description of feature one.' },
         { imageUrl: '/images/cto.png', title: 'Feature Two', description: 'Description of feature two.' },
-        { imageUrl: '/images/designer.png', title: 'Feature Three', description: 'Description of feature three.' }
+        { imageUrl: '/images/designer.svg', title: 'Feature Three', description: 'Description of feature three.' }
     ];
 
     return (

@@ -1,21 +1,14 @@
 import './App.css';
 
 import React from 'react';
-import Navbar from './nav';
-import Header from './Header';
-import Partners from './partners';
-import Network from './Network';
-import Features from './Features';
-
+import Home from './Home';
 
 function Welcome() {
 
   return (
     <div>
-      <Header />
-      <Partners />
-      <Network />
-      <Features />
+      
+      <Home />
       
       
       

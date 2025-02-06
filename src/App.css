@@ -1,81 +1,120 @@
-/*.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/
-/*.home{
-  background-color: rgb(138, 228, 138);
-  padding-bottom: 40px;
-  padding: 20px;
-}
-.start{
-  display: flex;
-  gap: 20px;
-}
-.paragraph{
-  color: white;
-}
-button{
-  padding: 10px;
-  width: 130px;
-  border-radius: 5px;
-  border: none;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-.partners{
-  /*text-align: center;*/
-
-/*.logos{
-  text-align: center;
-}
-.micro{
-  display: flex;
-}
-/* check and reposition*/
-/*.cee{
-  text-decoration: solid;
-}*/
-
-/*now*/
 .title{
   background-color: #74C69D;
 }
 .head{
+  
+}
+.start{
   display: flex;
+  gap: 20px;
+  justify-self: start;
+  margin-left: 10px;
+}
+.menu{
+  padding-right: 10px;
+  margin-top: -50px;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  
+}
+.star{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Work Sans", serif;
+
+}
+.people{
+  align-self: center;
+  justify-self: center;
+  margin-top: 40px;
+}
+.paragraph{
+  text-align: left;
+  margin-left: 3px;
+}
+.first{
+  color: #FFFFFF;
+  font-family: "Work Sans", serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.lorem{
+  font-family: "Crimson Text", serif;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.ipsum{
+  color: #FFFFFF;
+  font-family: "Work Sans", serif;
+  font-size: 15px;
+  font-weight: 400;
+  width: 320px;
+  margin-left: 20px;
+
+}
+.text{
+  color: black;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+.one{
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.partners{
+  text-align: center;
+}
+.second{
+  text-align: center;
+}
+.part{
+  font-family: "Work Sans", serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #74C69D;
+  letter-spacing: 5px;
+}
+.bold{
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.dolor{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Work Sans, serif";
+  margin-left: 20px;
+}
+.google{
+  
+}
+.logos{
+  display: flex;
+  gap: 20px;
+}
+.micro{
+  display: inline-flex;
+}
+.tweet{
+  text-align: center;
+}
+.features{
+  text-align: center;
 }
