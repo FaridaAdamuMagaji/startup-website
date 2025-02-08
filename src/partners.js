@@ -14,6 +14,7 @@ const Partners = () => {
             </div>
             <div className="google">
                 <img src="/images/gee.svg" alt="google"></img>
+                <img src="/images/gee.svg" alt="google"></img>
                 <img src="/images/google-o.svg" alt="google"></img>
             </div>
             <div>
