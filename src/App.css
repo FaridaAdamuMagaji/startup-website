@@ -58,6 +58,8 @@
   font-weight: 400;
   width: 320px;
   margin-left: 20px;
+  opacity: 0.75;
+  line-height: 20px;
 
 }
 .text{
@@ -69,7 +71,7 @@
 }
 .one{
   width: 170px;
-  height: 40px;
+  height: 48px;
   border: none;
   border-radius: 6px;
   color: #FFFFFF;
@@ -89,6 +91,8 @@
   text-align: center;
   color: #74C69D;
   letter-spacing: 5px;
+  margin-top: 25px;
+  margin-bottom: -10px;
 }
 .bold{
   font-family: "Crimson Text", serif;
@@ -99,12 +103,19 @@
 .dolor{
   font-size: 20px;
   font-weight: 400;
-  font-family: "Work Sans, serif";
+  font-family: "Work Sans", serif;
   margin-left: 20px;
+  width: 280px;
+  text-align: center;
+  justify-self: center;
+  margin-top: -10px;
+}
+.elicit{
+  display: block;
+  margin-top: 10px;
 }
 .google{
-  display: flex;
-  gap: 1px;
+  
   
 }
 .logos{
@@ -126,7 +137,8 @@
   margin-bottom: 20px;
 }
 .learn{
-  width: 150px;
+  width: 170px;
+  height: 48px;
   padding: 10px;
   border-radius: 5px;
   border: none;
@@ -135,6 +147,9 @@
 .lean{
   text-decoration: none;
   color: #FFFFFF;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 .group{
   text-align: center;
@@ -143,25 +158,71 @@
 .net{
   margin-left: 75px;
   font-weight: 700;
+  font-family: "Crimson Text", serif;
+  font-size: 24px;
 }
 .nets{
   padding: 10px;
-  width: 350px;
+  width: 330px;
   margin-left: 65px;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #21252977;
+  color: Color/Dark/50;
 }
 .more{
   background-color: #000000;
-  width: 130px;
-  height: 35px;
+  width: 170px;
+  height: 48px;
   border-radius: 5px;
   border: none;
   margin-left: 75px;
 }
 .bi{
   color: #FFFFFF;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 .features{
   text-align: center;
+  
+}
+.our{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Crimson Text", serif;
+}
+.team{
+  border: 2px solid #ddd;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  width: 279px;
+  height: 299px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  align-self: center;
+  justify-self: center;
+  
+
+}
+.border{
+  margin-left: -90px;
+}
+.names{
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Crimson Text", serif;
+  margin-left: 10px;
+}
+.titles{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Work Sans", serif;
+  color: #212529;
+  margin-left: -60px;
 }
 .footer{
   background-color: #74C69D;
@@ -169,7 +230,16 @@
 }
 .icons{
   display: flex;
-  justify-content: space-around;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
   margin: 10px;
-  padding-top: 10px;
+  padding-top: 35px;
+}
+.copy{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Work Sans", serif;
+  color: #FFFFFF;
+  padding-bottom: 35px;
 }

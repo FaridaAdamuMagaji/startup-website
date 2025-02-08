@@ -1,7 +1,6 @@
-import CopyrightSymbol from "./Copyright";
-
 const Footer = () => {
     return (
+        
         <div className="footer">
             <div className="icons">
                 <img src="/images/faceboook-icon.svg" alt="icon"></img>
@@ -12,8 +11,8 @@ const Footer = () => {
                 <img src="/images/whatsapp.svg" alt="icon"></img>
                 <img src="/images/youtube.svg" alt="icon"></img>
             </div>
-            <div>&copy</div>
-            <div>{CopyrightSymbol}start</div>
+            <p className="copy">&copy; start, 2022. All righs reserved.</p>
+            
         </div>
     );
 }

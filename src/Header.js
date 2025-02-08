@@ -13,13 +13,10 @@ const Header = () => {
                 <div className="menu">
                     <img className="menu" src="/images/ham-menu.svg" alt="menu"/>
                 </div>
-            </div>
-            
-                
+            </div>      
             <div className="people">
-                    <img src="/images/people.png" alt="group"></img>
+                <img src="/images/people.png" alt="group"></img>
             </div>
-            
             <div className="paragraph">
                 <p className="first">
                     WELCOME
