@@ -1,3 +1,5 @@
+
+
 const Partners = () => {
     return (
         <div className="partners">
@@ -12,13 +14,12 @@ const Partners = () => {
                     Lorem ipsum, dolor sit amet consectetur <span className="elicit">adipisicing elit.</span>
                 </p>
             </div>
-            <div className="google">
-                <img src="/images/gee.svg" alt="google"></img>
-                <img src="/images/gee.svg" alt="google"></img>
-                <img src="/images/google-o.svg" alt="google"></img>
+            <div>
+                <img src="/images/googles.svg" alt="microsoft"/>
             </div>
             <div>
                 <div>
+                    <img src="/images/images/red.svg" alt="red" />
                     <img src="/images/microsoft.png" alt="microsoft"/>
                 </div>
             </div>
