@@ -1,8 +1,11 @@
+import networking from "./assets/networking.png"
+import society from "./assets/society.png"
+
 const Network = () => {
     return (
         <div className="tweet">
             <div className="group">
-                <img className="group" src="/images/Group.png" alt="group"/>
+                <img className="group" src={society} alt="group"/>
             </div>
             <p className="net">
                 Lorem ipsum dolor sit amet consectetur 
@@ -16,7 +19,7 @@ const Network = () => {
                 </a>
             </button>
             <div className="group">
-                <img className="group" src="/images/networking.png" alt="network"/>
+                <img className="group" src={networking} alt="network"/>
             </div>
             <p className="net">
                 Lorem ipsum dolor sit amet consectetur 

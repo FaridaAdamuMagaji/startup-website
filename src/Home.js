@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Partners from './partners';
 import Network from './Network';
-import Features from './Features';
+import Team from './Team';
 import Footer from './footer';
 
 
@@ -12,7 +12,7 @@ const Home = () => {
             <Header />
             <Partners />
             <Network />
-            <Features />
+            <Team />
             <Footer />
             
         </div>

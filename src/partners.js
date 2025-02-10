@@ -1,4 +1,8 @@
-
+import google from "./assets/google.png"
+import microsoft from "./assets/microsoft.svg"
+import facebook from "./assets/facebook.svg"
+import spotify from "./assets/spotify.svg"
+import airbnb from './assets/airbnb.png'
 
 const Partners = () => {
     return (
@@ -15,18 +19,13 @@ const Partners = () => {
                 </p>
             </div>
             <div>
-                <img src="/images/googles.svg" alt="microsoft"/>
+                <img src={google} alt="google"/>
             </div>
-            <div>
-                <div>
-                    <img src="/images/images/red.svg" alt="red" />
-                    <img src="/images/microsoft.png" alt="microsoft"/>
-                </div>
-            </div>
+            <div className="micro"><img src={microsoft} alt="microsoft"/></div>
             <div className="socials">
-                <img className="bnb" src="/images/airbnb.png" alt="airbnb" id="bnb"/>
-                <div><img src="/images/facebook.png" alt="facebook" id="face"/></div>
-                <img src="/images/spotify.png" alt="spotify" id="spot"/>     
+                <img className="bnb" src={airbnb} alt="airbnb" id="bnb"/>
+                <div><img src={facebook} alt="facebook" id="face"/></div>
+                <img src={spotify} alt="spotify" id="spot"/>     
             </div>
             <button className="learn">
                 <a className="lean" href="#">Learn More</a>

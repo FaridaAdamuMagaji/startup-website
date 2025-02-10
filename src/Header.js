@@ -1,17 +1,20 @@
+import menu from "./assets/menu.svg"
+import logo from "./assets/logo.svg"
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
+
 
 const Header = () => {
     return (
         <nav className="title">
             <div className="head">
                 <div className="start">
-                    <img src="/images/slide.svg" alt="slide"/>
+                    <img src={logo} alt="slide"/>
                     <p className="star">Start</p>
                 </div>
                 <div className="menu">
-                    <img className="menu" src="/images/ham-menu.svg" alt="menu"/>
+                    <img className="menu" src={menu} alt="menu"/>
                 </div>
             </div>      
             <div className="people">
