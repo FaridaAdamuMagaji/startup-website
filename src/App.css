@@ -74,7 +74,7 @@
   height: 48px;
   border: none;
   border-radius: 6px;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
   margin-left: 20px;
   margin-bottom: 40px;
 }
@@ -114,6 +114,9 @@
   display: block;
   margin-top: 10px;
 }
+.google{
+  margin-top: 40px;
+}
 .micro{
   margin-top: 30px;
 }
@@ -126,7 +129,7 @@
 }
 #spot{
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .socials{
   margin-top: 30px;
@@ -138,7 +141,7 @@
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background-color: #000000;
+  background-color: #212529;
 }
 .lean{
   text-decoration: none;
@@ -149,7 +152,7 @@
 }
 .group{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 33px;
 }
 .net{
   margin-left: 75px;
@@ -165,10 +168,10 @@
   font-weight: 400;
   font-size: 15px;
   color: #21252977;
-  color: Color/Dark/50;
+  margin-top: -12px;
 }
 .more{
-  background-color: #000000;
+  background-color: #212529;
   width: 170px;
   height: 48px;
   border-radius: 5px;
@@ -181,23 +184,27 @@
   font-weight: 400;
   font-size: 20px;
 }
-.features{
+.talents{
+  margin-top: 45px;
   text-align: center;
-  
+  margin-bottom: 50px;
 }
 .our{
   font-size: 24px;
   font-weight: 700;
   font-family: "Crimson Text", serif;
 }
+.designer{
+  text-align: center;
+}
 .team{
   border: 2px solid #ddd;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(29, 24, 24, 0.4);
   width: 279px;
   height: 299px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding-top: 20px;
   align-self: center;
   justify-self: center;
@@ -209,14 +216,34 @@
   font-weight: 700;
   font-size: 24px;
   font-family: "Crimson Text", serif;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 .titles{
   font-size: 15px;
   font-weight: 400;
   font-family: "Work Sans", serif;
   color: #212529;
-  margin-left: -60px;
+  margin-left: 40px;
+}
+.last{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.learns{
+  width: 170px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #212529;
+}
+.mores{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 .footer{
   background-color: #74C69D;

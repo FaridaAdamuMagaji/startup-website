@@ -19,7 +19,7 @@ const Partners = () => {
                 </p>
             </div>
             <div>
-                <img src={google} alt="google"/>
+                <img className="google" src={google} alt="google"/>
             </div>
             <div className="micro"><img src={microsoft} alt="microsoft"/></div>
             <div className="socials">

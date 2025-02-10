@@ -1,5 +1,6 @@
 import menu from "./assets/menu.svg"
 import logo from "./assets/logo.svg"
+import community from "./assets/community.png"
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
@@ -18,7 +19,7 @@ const Header = () => {
                 </div>
             </div>      
             <div className="people">
-                <img src="/images/people.png" alt="group"></img>
+                <img src={community} alt="group"></img>
             </div>
             <div className="paragraph">
                 <p className="first">
