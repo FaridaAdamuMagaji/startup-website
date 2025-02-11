@@ -7,7 +7,6 @@ function Welcome() {
 
   return (
     <div>
-      
       <Home />
       
       
