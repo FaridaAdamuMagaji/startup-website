@@ -1,8 +1,8 @@
-import google from "./assets/google.png"
-import microsoft from "./assets/microsoft.svg"
-import facebook from "./assets/facebook.svg"
-import spotify from "./assets/spotify.svg"
-import airbnb from './assets/airbnb.png'
+import google from "../assets/google.png";
+import microsoft from "../assets/microsoft.svg";
+import facebook from "../assets/facebook.svg";
+import spotify from "../assets/spotify.svg";
+import airbnb from '../assets/airbnb.png';
 
 const Partners = () => {
     return (

@@ -1,5 +1,5 @@
-import networking from "./assets/networking.png"
-import society from "./assets/society.png"
+import networking from "../assets/networking.png";
+import society from "../assets/society.png";
 
 const Network = () => {
     return (

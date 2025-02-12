@@ -1,10 +1,10 @@
-import facebookicon from "./assets/facebookicon.svg";
-import instalogo from './assets/instalogo.svg';
-import twitterlogo from "./assets/twitterlogo.svg";
-import pinterestlogo from './assets/pinterestlogo.svg';
-import tiktoklogo from './assets/tiktoklogo.svg';
-import whatsapp from "./assets/whatsapp.svg";
-import youtube from "./assets/youtubeicon.svg";
+import facebookicon from "../assets/facebookicon.svg";
+import instalogo from '../assets/instalogo.svg';
+import twitterlogo from "../assets/twitterlogo.svg";
+import pinterestlogo from '../assets/pinterestlogo.svg';
+import tiktoklogo from '../assets/tiktoklogo.svg';
+import whatsapp from "../assets/whatsapp.svg";
+import youtube from "../assets/youtubeicon.svg";
 
 const Footer = () => {
     return (

@@ -1,7 +1,8 @@
 import './App.css';
 
 import React from 'react';
-import Home from './Home';
+import Home from './Component/Pages/Home';
+
 
 function Welcome() {
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import CEO from "./assets/CEO.png";
-import CTO from "./assets/CTO.png";
-import designer from "./assets/designer.png";
-import developer from "./assets/developer.png";
+import CEO from "../assets/CEO.png";
+import CTO from "../assets/CTO.png";
+import designer from "../assets/designer.png";
+import developer from "../assets/developer.png";
 import { useState } from 'react';
 import TeamList from './Teamchild';
 
