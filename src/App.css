@@ -148,6 +148,9 @@
   display: block;
   margin-top: 10px;
 }
+.nemo{
+  display: none;
+}
 .google{
   margin-top: 40px;
 }
@@ -280,6 +283,9 @@
   font-weight: 400;
   font-size: 20px;
 }
+.view{
+  display: none;
+}
 .footer{
   background-color: #74C69D;
   text-align: center;
@@ -304,7 +310,7 @@
 /*Desktop View*/
 @media screen and (min-width: 1024px) {
   .title{
-    padding: 15px 40px 40px 30px;
+    padding: 15px 50px 50px 30px;
   }
   .menu{
     display: inline;
@@ -327,34 +333,56 @@
     text-decoration: none;
     color: white;
   }
-  .people{
-    justify-self: flex-end;
-    padding-bottom: 30px;
-    padding-right: 40px;
+  .start{
+    margin-top: -20px;
+  }
+  .starts{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 620px;
+  }
+  .star{
+    font-size: 40px;
   }
   .bulb{
     width: 400px;
-    height: 320px;
+    height: 360px;
     padding-right: 35px;
+    margin-top: -30px;
+    
   }
   .first{
     font-size: 16px;
+    margin-top: 40px;
   }
   .lorem{
     font-size: 40px;
+    width: 416px;
+    height: 80px;
+    margin-top: 10px;
   }
   .ipsum{
-    font-size: 20px;
+    font-size: 15px;
+    width: 416px;
+    height: 76px;
+    padding-bottom: 20px;
+  }
+  .one{
+    margin-top: -10px;
   }
   .paragraph{
-    margin-top: -350px;
+    width: 150px;
+    height: 40px;
   }
   .dolor{
     display: inline;
   }
+  .partners{
+    margin-top: 60px;
+  }
   .flex{
     display: flex;
-    gap: 40px;
+    gap: 70px;
     align-content: center;
     justify-content: center;
   }
@@ -366,13 +394,63 @@
   }
   .tele{
     display: flex;
-    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 60px;
   }
   .teles{
     display: flex;
+    gap: 160px;
     flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    margin-top: 60px;
   }
-  
-  
-
+  .group{
+    width: 500px;
+    height: 400px;
+  }
+  .sit{
+    margin-top: 125px;
+  }
+  .talents{
+    margin-top: 120px;
+  }
+  .elicit{
+    display: none;
+  }
+  .nemo{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", serif;
+  }
+  .design{
+    display: inline;
+  }
+  .view{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Work Sans", serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .mores{
+    display: none;
+  }
+  .foot{
+    
+  }
+  .icons{
+    align-content: start;
+    justify-content: start;
+    margin-left: 105px;
+    
+  }
+  .copy{
+    text-align: right;
+    margin-right: 105px;
+  }
 }

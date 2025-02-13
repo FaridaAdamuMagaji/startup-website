@@ -7,6 +7,7 @@ const Header = () => {
     return (
         <nav className="title">
             <Navbar />
+            <div className="starts">
             <div className="people">
                 <img className="bulb" src={community} alt="group"></img>
             </div>
@@ -23,6 +24,7 @@ const Header = () => {
                 <button className="one">
                     <a className="text" href="#">Explore</a>
                 </button>
+            </div>
             </div>
         </nav>
     );

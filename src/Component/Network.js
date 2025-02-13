@@ -8,7 +8,7 @@ const Network = () => {
                 <div className="group">
                     <img className="group" src={society} alt="group"/>
                 </div>
-                <div>
+                <div className="sit">
                     <p className="net">
                         Lorem ipsum dolor sit amet consectetur 
                     </p>
@@ -26,7 +26,7 @@ const Network = () => {
             <div className="group">
                 <img className="group" src={networking} alt="network"/>
             </div>
-            <div>
+            <div className="sit">
             <p className="net">
                 Lorem ipsum dolor sit amet consectetur 
             </p>

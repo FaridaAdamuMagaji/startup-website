@@ -7,10 +7,10 @@ const TeamList = (props) => {
             <div className="talents">
                 <p className="part">TEAMS</p>
                 <p className="our">Our Talents</p>
-                <p className="dolor">Lorem ipsum, dolor sit amet consectetur<span className="elicit">adipisicing elit.</span></p>
+                <p className="dolor">Lorem ipsum, dolor sit amet consectetur<span className="elicit">adipisicing elit.</span><span className="nemo">Suscipit nemo hic quos, ab,</span></p>
             </div>
             {teams.map((team) => (
-                <div key={team.id}>
+                <div className="design" key={team.id}>
                     <div className="team">
                         <div className="designer">
                         <img className="designer" src={team.image} alt={team.title}></img>
@@ -24,6 +24,7 @@ const TeamList = (props) => {
             <div className="last">
                 <button className="learns">
                     <a className="mores" href="learn more">Learn More</a>
+                    <a className="view">View Team</a>
                 </button>
             </div>
         </div>
