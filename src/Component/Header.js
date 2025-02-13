@@ -1,25 +1,14 @@
-import menu from "../assets/menu.svg";
-import logo from "../assets/logo.svg";
+
 import community from "../assets/community.png"
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
+import Navbar from "./Navbar";
 
 
 const Header = () => {
     return (
         <nav className="title">
-            <div className="head">
-                <div className="start">
-                    <img src={logo} alt="slide"/>
-                    <p className="star">Start</p>
-                </div>
-                <div className="menu">
-                    <img className="menu" src={menu} alt="menu"/>
-                </div>
-            </div>      
+            <Navbar />
             <div className="people">
-                <img src={community} alt="group"></img>
+                <img className="bulb" src={community} alt="group"></img>
             </div>
             <div className="paragraph">
                 <p className="first">
@@ -29,7 +18,7 @@ const Header = () => {
                     Lorem ipsum dolor sit amet consectetur               
                 </p>
                 <p className="ipsum">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
                 </p>
                 <button className="one">
                     <a className="text" href="#">Explore</a>

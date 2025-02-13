@@ -18,14 +18,22 @@ const Partners = () => {
                     Lorem ipsum, dolor sit amet consectetur <span className="elicit">adipisicing elit.</span>
                 </p>
             </div>
-            <div>
-                <img className="google" src={google} alt="google"/>
-            </div>
-            <div className="micro"><img src={microsoft} alt="microsoft"/></div>
-            <div className="socials">
-                <img className="bnb" src={airbnb} alt="airbnb" id="bnb"/>
-                <div><img src={facebook} alt="facebook" id="face"/></div>
-                <img src={spotify} alt="spotify" id="spot"/>     
+            <div className="flex">
+                <div>
+                    <img className="google" src={google} alt="google"/>
+                </div>
+                <div className="micro">
+                    <img src={microsoft} alt="microsoft" id="microsoft"/>
+                </div>
+                    <div>
+                        <img className="bnb" src={airbnb} alt="airbnb" id="bnb"/>
+                    </div>
+                    <div>
+                        <img src={facebook} alt="facebook" id="face"/>
+                    </div>
+                    <div>
+                        <img src={spotify} alt="spotify" id="spot"/>
+                    </div>     
             </div>
             <button className="learn">
                 <a className="lean" href="#">Learn More</a>

@@ -6,7 +6,8 @@
   background-color: #74C69D;
 }
 .head{
-  
+  display: flex;
+  justify-content: space-between;
 }
 .start{
   display: flex;
@@ -14,19 +15,53 @@
   justify-self: start;
   margin-left: 70px;
 }
+.menu-button{
+  background-color: #74C69D;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-right: 70px;
+  
+}
+.menu-icon{
+  display: block;
+  width: 28px;
+  height: 2px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 2px;
+  position: absolute;
+  background-color: #FFFFFF;
+
+}
+.menu-icon::before{
+  top: -6px;
+}
+.menu-icon::after{
+  top: 6px;
+}
 .menu{
+  display: none;
+}
+/*.menu{
   padding-right: 40px;
   margin-top: -50px;
   justify-content: flex-end;
   justify-self: flex-end;
-  
-}
+}*/
 .star{
   color: white;
   font-size: 30px;
   font-weight: 500;
   font-family: "Work Sans", serif;
-
 }
 .people{
   align-self: center;
@@ -60,7 +95,6 @@
   margin-left: 20px;
   opacity: 0.75;
   line-height: 20px;
-
 }
 .text{
   color: black;
@@ -125,15 +159,16 @@
   gap: 20px;
 }
 .bnb{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#face{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #spot{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.socials{
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .learn{
   width: 170px;
@@ -263,4 +298,81 @@
   font-family: "Work Sans", serif;
   color: #FFFFFF;
   padding-bottom: 35px;
+}
+
+
+/*Desktop View*/
+@media screen and (min-width: 1024px) {
+  .title{
+    padding: 15px 40px 40px 30px;
+  }
+  .menu{
+    display: inline;
+    padding-right: 40px;
+    
+  }
+  .menu-button{
+    display: none;
+  }
+  .list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 30px;
+  }
+  .lists{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", serif;
+    text-decoration: none;
+    color: white;
+  }
+  .people{
+    justify-self: flex-end;
+    padding-bottom: 30px;
+    padding-right: 40px;
+  }
+  .bulb{
+    width: 400px;
+    height: 320px;
+    padding-right: 35px;
+  }
+  .first{
+    font-size: 16px;
+  }
+  .lorem{
+    font-size: 40px;
+  }
+  .ipsum{
+    font-size: 20px;
+  }
+  .paragraph{
+    margin-top: -350px;
+  }
+  .dolor{
+    display: inline;
+  }
+  .flex{
+    display: flex;
+    gap: 40px;
+    align-content: center;
+    justify-content: center;
+  }
+  #microsoft{
+    padding-top: 10px;
+  }
+  #face{
+    padding-top: 30px;
+  }
+  .tele{
+    display: flex;
+    gap: 50px;
+  }
+  .teles{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  
+
 }
