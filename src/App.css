@@ -440,14 +440,18 @@
   .mores{
     display: none;
   }
-  .foot{
+  .developer{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
     
-  }
+  } 
   .icons{
     align-content: start;
     justify-content: start;
     margin-left: 105px;
-    
+    margin-bottom: -40px;
   }
   .copy{
     text-align: right;
