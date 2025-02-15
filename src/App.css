@@ -144,6 +144,10 @@
   justify-self: center;
   margin-top: -10px;
 }
+.elicits{
+  display: block;
+  margin-top: 10px;
+}
 .elicit{
   display: block;
   margin-top: 10px;
@@ -265,8 +269,8 @@
 }
 .last{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: -10px;
+  margin-bottom: 30px;
 }
 .learns{
   width: 170px;
@@ -380,6 +384,9 @@
   .partners{
     margin-top: 60px;
   }
+  .elicits{
+    display: block;
+  }
   .flex{
     display: flex;
     gap: 70px;
@@ -458,3 +465,35 @@
     margin-right: 105px;
   }
 }
+
+/*Styling for Portfolio*/
+
+.port{
+  text-align: center;
+}
+.portfolio{
+  margin-top: 50px;
+}
+#ports{
+  margin-bottom: 40px;
+}
+/*Desktop view for Portfolio*/
+
+@media screen and (min-width: 1024px) {
+  .portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    grid-column-gap: 40px;
+    
+  }
+  #ports{
+    width: 560px;
+    height: 330px;
+    
+    
+  }
+
+}
+
+

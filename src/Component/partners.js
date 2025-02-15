@@ -15,7 +15,7 @@ const Partners = () => {
                     Lorem ipsum Dolor
                 </p>
                 <p className="dolor">
-                    Lorem ipsum, dolor sit amet consectetur <span className="elicit">adipisicing elit.</span>
+                    Lorem ipsum, dolor sit amet consectetur <span className="elicits">adipisicing elit.</span>
                 </p>
             </div>
             <div className="flex">
