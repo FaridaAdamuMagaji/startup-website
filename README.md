@@ -1,22 +1,52 @@
-# Project Title: Responsive Startup Landing Page
+# Startup-Page
 
 ## Description
 
 This project is a responsive landing page designed for startups to showcase their products and service. It is built using modern web development practices to ensure it looks great and functions well on all devices, from desktops to mobile phones.
 
-Key features:
+## Table of Contents
+
+1- [Project Name](#project-name)
+2 - [Table of Contents](#table-of-contents)
+3 - [Introduction](#introduction)
+4 - [Live Demo](#live-demo)
+5 - [Features](#features)
+6 - [Technologies Used](#technologies-used)
+7 - [Setup and Installation](#setup-and-installation)
+8 - [Usage](#usage)
+9 - [Screenshots](#screenshots)
+10 - [License](#license)
+11- [Author(s)](#authors)
+
+## Overview
+
+This project is built using React, HTML5, CSS and javaScript. it provides a visually appealing and responsive layout for a webpage. it includes the following:
+
+-A component folder containing javaScript files for the various sections contained in each page. The files are:
+--Navbar file, Header section, Partners section, Network, Team, and Footer section file. 
+-A pages folder containing the web pages (Homepage and Portfolio page).
+-An App.js file containing the imported Home Page and Portfolio pages.
+
+# Presentation <a name="Presentation"></a>
+- [Presentation Link]()
+
+Checkout the Live Demo of this project: [Live Demo]()
+## Live-demo 
+-Checkout the live Demo of the project: [Live Demo]()
+
+## Technologies Used
+
+-   React
+-   CSS
+-   HTML
+-   JavaScript.
+
+## features:
 
 -   **Responsive Design**: Adapts to different screen sizes using CSS media queries and a flexible grid system.
 -   **Clean and Modern UI**: Provides an engaging and professional look to attract potential customers.
 -   **Easy Customization**: Simple and well-documented code allows for quick and easy customization to fit your brand.
 
-## Table of Contents
-
-1.  [Installation](#installation)
-2.  [Usage](#usage)
-3.  [Technologies Used](#technologies-used)
-4.  [Contributing](#contributing)
-5.  [License](#license)
 
 ## Installation
 
@@ -51,14 +81,6 @@ Provide clear, step-by-step instructions that allow someone with no prior knowle
 check below-----------------
 Include the basic commands with examples to demonstrate typical use cases [1]. Link to more detailed documentation or tutorials on a support portal [1].
 
-## Technologies Used
-
--   React
--   CSS
--   HTML
--   JavaScript
-
-List any dependency requirements of the software in an easy-to-find section of the README file [1].
 
 ## Contributing
 
@@ -73,5 +95,10 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
+
+## Authors
+-**Name:**Farida Adamu Magaji
+-**Email:**faridaadamumagaji@gmail.com
+-**GitHub:**[FaridaAdamuMagaji]( https://github.com/FaridaAdamuMagaji)
 

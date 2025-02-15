@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 
 const Navbar = () => {
@@ -14,17 +15,9 @@ const Navbar = () => {
                 <nav className="menu">
                     <ul className="list">
                         <li>
-                            <a className="lists" href="#">Home</a>
+                            <Link className="lists" to="/Home">Home</Link>
                         </li>
-                        <li>
-                            <a className="lists" href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a className="lists" href="#">Services</a>
-                        </li>
-                        <li>
-                            <a className="lists" href="#">Contact</a>
-                        </li>
+                        <Link className="lists" to="/Portfolio">Portfolio</Link>
                     </ul>
                 </nav>
             </div>
