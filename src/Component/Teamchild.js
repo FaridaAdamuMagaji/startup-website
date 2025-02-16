@@ -27,7 +27,7 @@ const TeamList = (props) => {
             <div className="last">
                 <button className="learns">
                     <a className="mores" href="learn more">Learn More</a>
-                    <a className="view">View Team</a>
+                    <a className="view" href="View More">View Team</a>
                 </button>
             </div>
         </div>

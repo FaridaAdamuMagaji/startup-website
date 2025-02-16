@@ -47,9 +47,8 @@ const PortfolioList = (props) => {
                 ))}
             </div>
             <div className="last">
-                <button className="learns">
-                    <a className="mores" href="learn more">Learn More</a>
-                    <a className="view">View Team</a>
+                <button className="learn">
+                    <a className="lean" href="#">Learn More</a>
                 </button>
             </div>
             <Footer />

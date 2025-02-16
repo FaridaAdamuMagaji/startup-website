@@ -8,6 +8,7 @@
 .head{
   display: flex;
   justify-content: space-between;
+  margin-bottom: -50px;
 }
 .start{
   display: flex;
@@ -15,24 +16,21 @@
   justify-self: start;
   margin-left: 70px;
 }
+#slide{
+  width: 40px;
+}
 .menu-button{
   background-color: #74C69D;
   color: #FFFFFF;
   border: none;
   padding: 15px;
-  font-size: 16px;
+  font-size: 30px;
   cursor: pointer;
   padding-right: 70px;
+  display: block;
   
 }
-.menu-icon{
-  display: block;
-  width: 28px;
-  height: 2px;
-  background-color: #FFFFFF;
-  position: relative;
-}
-.menu-icon::before,
+/*.menu-icon::before,
 .menu-icon::after {
   content: "";
   display: block;
@@ -47,9 +45,24 @@
 }
 .menu-icon::after{
   top: 6px;
+}*/
+.menu-container{
+  margin-top: 12px;
+  
 }
-.menu{
+.list{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-top: 5px;
+}
+.lists{
   display: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Work Sans", serif;
+  text-decoration: none;
+  color: white;
 }
 /*.menu{
   padding-right: 40px;
@@ -66,7 +79,7 @@
 .people{
   align-self: center;
   justify-self: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .paragraph{
   text-align: left;
@@ -316,26 +329,19 @@
   .title{
     padding: 15px 50px 50px 30px;
   }
-  .menu{
+  /*.menu-list{
     display: inline;
     padding-right: 40px;
     
-  }
+  }*/
   .menu-button{
     display: none;
-  }
-  .list{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin-top: 30px;
+    
   }
   .lists{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Work Sans", serif;
-    text-decoration: none;
-    color: white;
+    display: block;
+    padding-top: 10px;
+    
   }
   .start{
     margin-top: -20px;
@@ -344,6 +350,7 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 620px;
+    margin-top: 30px;
   }
   .star{
     font-size: 40px;

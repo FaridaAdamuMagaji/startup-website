@@ -1,25 +1,16 @@
-import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
+import Menu from "./menu";
 
 const Navbar = () => {
+    
     return (
         <header>
             <div className="head">
                 <div className="start">
-                    <img src={logo} alt="slide"/>
+                    <img src={logo} alt="slide" id="slide"/>
                     <p className="star">Start</p>
                 </div>
-                <button className="menu-button">
-                    <span className="menu-icon"></span>
-                </button>
-                <nav className="menu">
-                    <ul className="list">
-                        <li>
-                            <Link className="lists" to="/Home">Home</Link>
-                        </li>
-                        <Link className="lists" to="/Portfolio">Portfolio</Link>
-                    </ul>
-                </nav>
+                <Menu />
             </div>
         </header>
         
